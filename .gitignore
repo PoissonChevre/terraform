@@ -4,6 +4,8 @@
 !*/
 # …and the files to keep
 !*.tf
+!*.tfvars
+!*.txt
 !README*
 !.gitignore
 # Explicitly ignore provider lock files
