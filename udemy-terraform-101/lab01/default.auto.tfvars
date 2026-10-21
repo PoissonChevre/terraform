@@ -1,0 +1,3 @@
+# lesson 29 - input variable files
+application_name = "marksblog"
+environment_name = "dev"
