@@ -1,8 +1,0 @@
-# Ignore everything…
-*
-# …except directories (otherwise Git won't look inside them)
-!*/
-# …and the files to keep
-!*.tf
-!README*
-!.gitignore
