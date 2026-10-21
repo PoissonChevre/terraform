@@ -13,3 +13,9 @@ output "environment_name" {
 output "environment_prefix" {
   value = local.environment_prefix
 }
+
+# lesson 27 - referencing resource output
+output suffix {
+  value = random_string.suffix.result
+}
+
