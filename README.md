@@ -10,13 +10,18 @@ Terraform is an **Infrastructure as Code** tool by HashiCorp. You describe your 
 terraform init → plan → apply → destroy
 ```
 
-📖 [Terraform documentation](https://developer.hashicorp.com/terraform/docs) · [azurerm provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+📖 [Terraform documentation](https://developer.hashicorp.com/terraform/docs) · [Terraform registry](https://registry.terraform.io/browse/providers)
 
 ## Why I'm learning it
 
-I'm moving into a **DevOps** role, and Terraform covers the infrastructure layer of my stack: **Terraform** provisions, **Ansible** configures, **Docker/Kubernetes** run the apps.
+I'm interested in DevOps and building hands-on skills to work in the field. Terraform covers the infrastructure layer: **Terraform** provisions, **Ansible** configures, **Docker/Kubernetes** run the apps.  
 
 Goals:
-- Rebuild my **Azure** (AZ-104) labs as code: reproducible, versioned, destroyed after each session.
+
+- Practice IaC on real infrastructure (cloud and homelab): reproducible, versioned, and torn down when not in use.
 - Pass the **HashiCorp Terraform Associate** certification.
 - Build a portfolio of IaC projects.
+
+## Courses
+- [Terraform fot the absolute beginners with labs - KodeKloud](./kodekloud-terraform-absolute-beginners/)
+- [Terraform on Azure – Mark Tinderholt](./udemy-terraform-101/)
