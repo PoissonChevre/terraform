@@ -15,7 +15,20 @@ output "environment_prefix" {
 }
 
 # lesson 27 - referencing resource output
-output suffix {
+output "suffix" {
   value = random_string.suffix.result
+}
+
+# lesson 32 - sensitive inputs & outputs
+# terraform output api_key  ==> insecure even with sensitive=true ==> output show sensitive variable terraform state
+#"outputs": {
+#    "api_key": {
+#      "value": "private-bar",
+#      "type": "string",
+#      "sensitive": true
+#    },
+output "api_key" {
+  value = "${var.api_key}-bar"
+  sensitive = true
 }
 
