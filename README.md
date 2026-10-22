@@ -25,4 +25,4 @@ Goals:
 ## Courses
 
 - [Terraform fot the absolute beginners with labs - KodeKloud](./kodekloud-terraform-absolute-beginners/)
-- [Terraform on Azure – Mark Tinderholt](./udemy-terraform-101/)
+- [Terraform 101: The Ultimate Hands-On Guide Azure Edition – Mark Tinderholt](./udemy-terraform-101/)  
