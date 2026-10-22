@@ -23,5 +23,6 @@ Goals:
 - Build a portfolio of IaC projects.
 
 ## Courses
+
 - [Terraform fot the absolute beginners with labs - KodeKloud](./kodekloud-terraform-absolute-beginners/)
 - [Terraform on Azure – Mark Tinderholt](./udemy-terraform-101/)
