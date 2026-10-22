@@ -10,4 +10,7 @@ variable "application_name" {
 variable "environment_name" {
 }
 
-
+# lesson 32 - sensitive inputs & outputs
+variable "api_key" {
+  sensitive = true
+}
