@@ -28,5 +28,5 @@ It then uses AWS (IAM, S3, DynamoDB, EC2) and moves on to provisioners, import, 
 ## Takeaways
 
 This KodeKloud course is clear, well structured and backed by practical labs.
-It gave me a solid foundation in Terraform's core workflow, state management and modules — the groundwork for automating Azure infrastructure.
+It gave me a solid foundation in Terraform's core workflow, state management and modules, the groundwork for automating Azure infrastructure.
 Next step: applying these skills to Azure (azurerm, azuread, azapi) in the Udemy course, alongside my AZ-104 preparation, and then the Terraform Associate certification.
