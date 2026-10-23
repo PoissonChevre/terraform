@@ -1,13 +1,15 @@
 # [Terraform for the Absolute Beginners with Labs - KodeKloud](https://www.udemy.com/course/terraform-for-the-absolute-beginners/?couponCode=26BBPPLO2MXTRMT)
 
 ## Learn the basics of Terraform with real hands on labs right in your browser
+
 ## About this course
 
 KodeKloud's *Terraform for the Absolute Beginners* is a hands-on introduction to Infrastructure as Code, and part of my learning path in automation.
 It covers HCL, providers, variables, outputs, state (local and remote), lifecycle rules, data sources, `count` and `for_each`.
 It then uses AWS (IAM, S3, DynamoDB, EC2) and moves on to provisioners, import, modules, functions and workspaces.
 
-> All labs were completed in KodeKloud's browser-based environment.
+> All labs were completed in KodeKloud's browser-based environment.  
+
 ## Course Sections
 
 12 sections • 87 lectures • 4 h 36 min
