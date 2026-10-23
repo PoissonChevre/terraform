@@ -27,8 +27,57 @@ output "suffix" {
 #      "type": "string",
 #      "sensitive": true
 #    },
+
 output "api_key" {
-  value = "${var.api_key}-bar"
+  value     = "${var.api_key}-bar"
   sensitive = true
 }
 
+output "primary_region" {
+  value = var.regions[0]
+}
+
+output "primary_region_instance_1" {
+  value = var.region_instance_count["westus"]  
+}
+
+output "primary_region_instance_2" {
+  value = var.region_instance_count["eastus"]  
+}
+
+output "primary_region_instance_3" {
+  value = var.region_instance_count[var.regions[0]]  
+}
+
+output "kind" {
+  value = var.sku_settings.kind
+}
+
+# lesson 44 - using the terraform module registry 
+output "alpha" {
+  value = module.bravo.random_string
+}
+
+output "bravo" {
+  value = module.bravo.random_string
+}
+
+output "charlie" {
+  value = module.charlie.random_string
+}
+
+output "regionA" {
+  value = module.regional_stamps[0].name
+}
+
+output "regionB" {
+  value = module.regional_stamps[1].name
+}
+
+output "regionC" {
+  value = module.regional_stamps2["foo"].name
+}
+
+output "regionD" {
+  value = module.regional_stamps2["bar"].name
+}
