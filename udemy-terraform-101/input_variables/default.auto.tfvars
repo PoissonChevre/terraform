@@ -1,6 +1,6 @@
 # lesson 36 - deep dive input variable selection order
 
- foo = "yellow"
+foo = "yellow"
 
 # .auto.tfvars priority over .tfvars
 # terraform apply -auto-approve => foo = "yellow"
