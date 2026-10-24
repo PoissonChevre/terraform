@@ -1,6 +1,6 @@
 # Terraform 101: The Ultimate Hands-On Guide, Azure Edition — Udemy
 
-[Course page on Udemy](https://www.udemy.com/course/terraform-101-azure-edition/) · **Instructor:** Mark Tinderholt (Principal Architect, Microsoft) · **Status:** in progress
+[Course page](https://www.udemy.com/course/terraform-101-azure-edition/) · **Instructor:** Mark Tinderholt (Principal Architect, Microsoft) · **Status:** in progress
 
 ## About
 
@@ -23,7 +23,7 @@ In 12 hours of video, it covers the core Terraform workflow: the CLI, HCL, remot
 | 9 | Achieving Day Zero Feature Support with the AzAPI Terraform Provider |
 | 10 | Conclusion |
 
-## Labs in this folder
+## My notes
 
 | Folder / file | What it shows |
 |---|---|
@@ -32,3 +32,17 @@ In 12 hours of video, it covers the core Terraform workflow: the CLI, HCL, remot
 | [lab01/terraform_console.md](./lab01/terraform_console.md) | Test expressions with `terraform console` |
 | [lab01/terraform.tfstate.d/workspace.md](./lab01/terraform.tfstate.d/workspace.md) | Workspaces: same code, one state per environment |
 | [input_variables](./input_variables/) | Variable precedence (default, `TF_VAR_`, `.tfvars`, `-var`) and Azure `ARM_` variables |
+
+## Takeaways
+
+So far (course in progress):
+
+- Input variables, their precedence, and one `.tfvars` file per environment.
+- Modules, outputs and `terraform console` to test expressions.
+- Workspaces: same code, one state per environment.
+
+## Resources
+
+- [Udemy: course page](https://www.udemy.com/course/terraform-101-azure-edition/)
+- [Terraform azurerm provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+- [My Terraform cheat sheet](https://github.com/PoissonChevre/devops_cheat_sheets/tree/main/terraform)

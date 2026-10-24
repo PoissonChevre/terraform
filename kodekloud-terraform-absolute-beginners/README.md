@@ -1,6 +1,6 @@
 # Terraform for the Absolute Beginners with Labs — KodeKloud
 
-[Course page on Udemy](https://www.udemy.com/course/terraform-for-the-absolute-beginners/) · **Provider:** KodeKloud · **Status:** completed (2026)
+[Course page](https://www.udemy.com/course/terraform-for-the-absolute-beginners/) · **Provider:** KodeKloud · **Status:** completed (2026)
 
 ## About
 
@@ -27,7 +27,7 @@ It covers HCL, providers, variables, outputs, state (local and remote), lifecycl
 | 11 | Terraform Modules | Writing modules, using modules from the Registry |
 | 12 | Functions, Conditionals and Workspaces | Built-in functions, conditional expressions, workspaces |
 
-## Labs in this folder
+## My notes
 
 | Folder | What it shows |
 |---|---|
@@ -44,3 +44,10 @@ Most labs ran in the KodeKloud browser environment, so only a few are saved here
 
 - Practice on my own: the [Terraform 101 Azure course](../udemy-terraform-101/) and labs in my homelab.
 - Pass the **HashiCorp Terraform Associate** certification.
+
+## Resources
+
+- [Udemy: course page](https://www.udemy.com/course/terraform-for-the-absolute-beginners/)
+- [Terraform documentation](https://developer.hashicorp.com/terraform/docs)
+- [Terraform Registry](https://registry.terraform.io/browse/providers)
+- [My Terraform cheat sheet](https://github.com/PoissonChevre/devops_cheat_sheets/tree/main/terraform)

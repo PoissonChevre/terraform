@@ -43,7 +43,7 @@ terraform/
 
 State files (`*.tfstate`) and the `.terraform/` folder are not in Git.
 
-## Links
+## Resources
 
 - [Terraform documentation](https://developer.hashicorp.com/terraform/docs)
 - [Terraform Registry](https://registry.terraform.io/browse/providers)
