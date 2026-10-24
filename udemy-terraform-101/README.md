@@ -45,4 +45,4 @@ So far (course in progress):
 
 - [Udemy: course page](https://www.udemy.com/course/terraform-101-azure-edition/)
 - [Terraform azurerm provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
-- [My Terraform cheat sheet](https://github.com/PoissonChevre/devops_cheat_sheets/tree/main/terraform)
+- [My Terraform cheat sheet](https://github.com/PoissonChevre/cheatsheets/tree/main/terraform)
