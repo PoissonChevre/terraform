@@ -1,28 +1,50 @@
-# Terraform – Learning
+# Terraform — Learning
 
-Labs and notes from my Terraform learning path.
+My notes and labs from Terraform courses.
 
 ## What is Terraform?
 
-Terraform is an **Infrastructure as Code** tool by HashiCorp. You describe your infrastructure in declarative `.tf` files (HCL), and Terraform creates, updates or destroys it through each platform's API (`azurerm`, `aws`, `kubernetes`…).
+Terraform is an **Infrastructure as Code** (IaC) tool by HashiCorp. You describe your infrastructure in `.tf` files (HCL language). Terraform then creates, changes or deletes it through the API of each platform, using **providers** (`aws`, `azurerm`, `kubernetes`, `proxmox`…).
 
 ```bash
-terraform init → plan → apply → destroy
+terraform init      # Download the providers
+terraform plan      # Show what will change
+terraform apply     # Make the changes
+terraform destroy   # Delete everything
 ```
-
-📖 [Terraform documentation](https://developer.hashicorp.com/terraform/docs) · [Terraform registry](https://registry.terraform.io/browse/providers)
 
 ## Why I'm learning it
 
-I'm interested in DevOps and building hands-on skills to work in the field. Terraform covers the infrastructure layer: **Terraform** provisions, **Ansible** configures, **Docker/Kubernetes** run the apps.  
+Terraform is the infrastructure layer of a DevOps toolchain: **Terraform** creates the machines, **Ansible** configures them, **Docker / Kubernetes** run the apps.
 
 Goals:
 
-- Practice IaC on real infrastructure (cloud and homelab): reproducible, versioned, and torn down when not in use.
+- Practice IaC on real infrastructure (cloud and homelab): reproducible, versioned, deleted when not in use.
 - Pass the **HashiCorp Terraform Associate** certification.
 - Build a portfolio of IaC projects.
 
 ## Courses
 
-- [Terraform fot the absolute beginners with labs - KodeKloud](./kodekloud-terraform-absolute-beginners/)
-- [Terraform 101: The Ultimate Hands-On Guide Azure Edition – Mark Tinderholt](./udemy-terraform-101/)  
+| Course | Provider | Status | Notes and labs |
+|---|---|---|---|
+| Terraform for the Absolute Beginners with Labs | KodeKloud | Completed (2026) | [kodekloud-terraform-absolute-beginners](./kodekloud-terraform-absolute-beginners/) |
+| Terraform 101: The Ultimate Hands-On Guide, Azure Edition | Udemy | In progress | [udemy-terraform-101](./udemy-terraform-101/) |
+
+## Repository layout
+
+```
+terraform/
+├── kodekloud-terraform-absolute-beginners/
+│   └── variables/          # Lab: variable types
+└── udemy-terraform-101/
+    ├── input_variables/    # Lab: variable precedence
+    └── lab01/              # Main lab: tfvars, modules, workspaces
+```
+
+State files (`*.tfstate`) and the `.terraform/` folder are not in Git.
+
+## Links
+
+- [Terraform documentation](https://developer.hashicorp.com/terraform/docs)
+- [Terraform Registry](https://registry.terraform.io/browse/providers)
+- [My Terraform cheat sheet](https://github.com/PoissonChevre/devops_cheat_sheets/tree/main/terraform)

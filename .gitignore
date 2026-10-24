@@ -6,11 +6,14 @@
 !*.tf
 !*.tfvars
 !*.txt
-!README*
+!*.md
 !.gitignore
-# Explicitly ignore provider lock files
-.terraform.lock.hcl
+# The .tfvars files here hold lesson values only.
+# Never put secrets in them: use TF_VAR_ / ARM_ environment variables.
+
+# Never commit these
 .terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.backup
 .terraform.tfstate.lock.info

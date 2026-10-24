@@ -1,47 +1,42 @@
+# KodeKloud lab: variable types
+
 variable "name" {
-     type = string
-     default = "Mark"
-  
+  type    = string
+  default = "Mark"
 }
+
 variable "number" {
-     type = bool
-     default = true
-  
+  type    = bool
+  default = true
 }
+
 variable "distance" {
-     type = number
-     default = 5
-  
+  type    = number
+  default = 5
 }
+
 variable "jedi" {
-     type = map
-     default = {
-     filename = "/home/renaud/bravofieu.txt"
-     content = "yes"
-     }
-  
+  type = map
+  default = {
+    filename = "/tmp/jedi.txt"
+    content  = "yes"
+  }
 }
 
 variable "gender" {
-     type = list(string)
-     default = ["Male", "Female"]
+  type    = list(string)
+  default = ["Male", "Female"]
 }
+
 variable "hard_drive" {
-     type = map
-     default = {
-          slow = "HHD"
-          fast = "SSD"
-     }
+  type = map
+  default = {
+    slow = "HDD"
+    fast = "SSD"
+  }
 }
+
 variable "users" {
-     type = set(string)
-     default = ["tom", "jerry", "pluto", "daffy", "donald", "jerry", "chip", "dale"]
-
-  
+  type    = set(string)
+  default = ["tom", "jerry", "pluto", "daffy", "donald", "jerry", "chip", "dale"]
 }
-
-  
-
-
-
-
